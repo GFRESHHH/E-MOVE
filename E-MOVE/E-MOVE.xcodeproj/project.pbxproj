@@ -7,73 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FEF4B23329FDC7BB002582FD /* E_MOVEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF4B23229FDC7BB002582FD /* E_MOVEApp.swift */; };
-		FEF4B23529FDC7BB002582FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF4B23429FDC7BB002582FD /* ContentView.swift */; };
-		FEF4B23729FDC7BB002582FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF4B23629FDC7BB002582FD /* Assets.xcassets */; };
-		FEF4B23A29FDC7BB002582FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF4B23929FDC7BB002582FD /* Preview Assets.xcassets */; };
-		FEF4B24129FDC8F2002582FD /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF4B24029FDC8F2002582FD /* File.swift */; };
-		FEF4B26429FDCCB0002582FD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FEF4B26329FDCCB0002582FD /* Lottie */; };
-		FEF4B26629FDCD20002582FD /* LOTTIEVIEW.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF4B26529FDCD20002582FD /* LOTTIEVIEW.swift */; };
-		FEF4B26829FDCF48002582FD /* 99627-loading-blocks.json in Resources */ = {isa = PBXBuildFile; fileRef = FEF4B26729FDCF48002582FD /* 99627-loading-blocks.json */; };
+		FE21031129FDFB2E00252E65 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21031029FDFB2E00252E65 /* File.swift */; };
+		FE21031329FEC15600252E65 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21031229FEC15600252E65 /* login.swift */; };
+		FE21031529FEC38600252E65 /* loading page.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21031429FEC38600252E65 /* loading page.swift */; };
+		FE21031729FEDA2300252E65 /* home view.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21031629FEDA2200252E65 /* home view.swift */; };
+		FE2469DC29FDE77800958693 /* E_MOVEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2469DB29FDE77800958693 /* E_MOVEApp.swift */; };
+		FE2469DE29FDE77800958693 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2469DD29FDE77800958693 /* ContentView.swift */; };
+		FE2469E029FDE77900958693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2469DF29FDE77900958693 /* Assets.xcassets */; };
+		FE2469E329FDE77900958693 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2469E229FDE77900958693 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FEF4B22F29FDC7BB002582FD /* E-MOVE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-MOVE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEF4B23229FDC7BB002582FD /* E_MOVEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_MOVEApp.swift; sourceTree = "<group>"; };
-		FEF4B23429FDC7BB002582FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FEF4B23629FDC7BB002582FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FEF4B23929FDC7BB002582FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FEF4B24029FDC8F2002582FD /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		FEF4B26529FDCD20002582FD /* LOTTIEVIEW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTTIEVIEW.swift; sourceTree = "<group>"; };
-		FEF4B26729FDCF48002582FD /* 99627-loading-blocks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "99627-loading-blocks.json"; sourceTree = "<group>"; };
+		FE21031029FDFB2E00252E65 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		FE21031229FEC15600252E65 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		FE21031429FEC38600252E65 /* loading page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "loading page.swift"; sourceTree = "<group>"; };
+		FE21031629FEDA2200252E65 /* home view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "home view.swift"; sourceTree = "<group>"; };
+		FE2469D829FDE77800958693 /* E-MOVE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-MOVE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2469DB29FDE77800958693 /* E_MOVEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_MOVEApp.swift; sourceTree = "<group>"; };
+		FE2469DD29FDE77800958693 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE2469DF29FDE77900958693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE2469E229FDE77900958693 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FEF4B22C29FDC7BB002582FD /* Frameworks */ = {
+		FE2469D529FDE77800958693 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF4B26429FDCCB0002582FD /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FEF4B22629FDC7BB002582FD = {
+		FE2469CF29FDE77800958693 = {
 			isa = PBXGroup;
 			children = (
-				FEF4B23129FDC7BB002582FD /* E-MOVE */,
-				FEF4B23029FDC7BB002582FD /* Products */,
+				FE2469DA29FDE77800958693 /* E-MOVE */,
+				FE2469D929FDE77800958693 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FEF4B23029FDC7BB002582FD /* Products */ = {
+		FE2469D929FDE77800958693 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FEF4B22F29FDC7BB002582FD /* E-MOVE.app */,
+				FE2469D829FDE77800958693 /* E-MOVE.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FEF4B23129FDC7BB002582FD /* E-MOVE */ = {
+		FE2469DA29FDE77800958693 /* E-MOVE */ = {
 			isa = PBXGroup;
 			children = (
-				FEF4B23229FDC7BB002582FD /* E_MOVEApp.swift */,
-				FEF4B23429FDC7BB002582FD /* ContentView.swift */,
-				FEF4B26529FDCD20002582FD /* LOTTIEVIEW.swift */,
-				FEF4B26729FDCF48002582FD /* 99627-loading-blocks.json */,
-				FEF4B24029FDC8F2002582FD /* File.swift */,
-				FEF4B23629FDC7BB002582FD /* Assets.xcassets */,
-				FEF4B23829FDC7BB002582FD /* Preview Content */,
+				FE2469DB29FDE77800958693 /* E_MOVEApp.swift */,
+				FE2469DD29FDE77800958693 /* ContentView.swift */,
+				FE21031629FEDA2200252E65 /* home view.swift */,
+				FE21031029FDFB2E00252E65 /* File.swift */,
+				FE21031229FEC15600252E65 /* login.swift */,
+				FE21031429FEC38600252E65 /* loading page.swift */,
+				FE2469DF29FDE77900958693 /* Assets.xcassets */,
+				FE2469E129FDE77900958693 /* Preview Content */,
 			);
 			path = "E-MOVE";
 			sourceTree = "<group>";
 		};
-		FEF4B23829FDC7BB002582FD /* Preview Content */ = {
+		FE2469E129FDE77900958693 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FEF4B23929FDC7BB002582FD /* Preview Assets.xcassets */,
+				FE2469E229FDE77900958693 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -81,42 +82,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FEF4B22E29FDC7BB002582FD /* E-MOVE */ = {
+		FE2469D729FDE77800958693 /* E-MOVE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEF4B23D29FDC7BB002582FD /* Build configuration list for PBXNativeTarget "E-MOVE" */;
+			buildConfigurationList = FE2469E629FDE77900958693 /* Build configuration list for PBXNativeTarget "E-MOVE" */;
 			buildPhases = (
-				FEF4B22B29FDC7BB002582FD /* Sources */,
-				FEF4B22C29FDC7BB002582FD /* Frameworks */,
-				FEF4B22D29FDC7BB002582FD /* Resources */,
+				FE2469D429FDE77800958693 /* Sources */,
+				FE2469D529FDE77800958693 /* Frameworks */,
+				FE2469D629FDE77800958693 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "E-MOVE";
-			packageProductDependencies = (
-				FEF4B26329FDCCB0002582FD /* Lottie */,
-			);
 			productName = "E-MOVE";
-			productReference = FEF4B22F29FDC7BB002582FD /* E-MOVE.app */;
+			productReference = FE2469D829FDE77800958693 /* E-MOVE.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FEF4B22729FDC7BB002582FD /* Project object */ = {
+		FE2469D029FDE77800958693 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					FEF4B22E29FDC7BB002582FD = {
+					FE2469D729FDE77800958693 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = FEF4B22A29FDC7BB002582FD /* Build configuration list for PBXProject "E-MOVE" */;
+			buildConfigurationList = FE2469D329FDE77800958693 /* Build configuration list for PBXProject "E-MOVE" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,48 +122,46 @@
 				en,
 				Base,
 			);
-			mainGroup = FEF4B22629FDC7BB002582FD;
-			packageReferences = (
-				FEF4B26229FDCCB0002582FD /* XCRemoteSwiftPackageReference "lottie-ios" */,
-			);
-			productRefGroup = FEF4B23029FDC7BB002582FD /* Products */;
+			mainGroup = FE2469CF29FDE77800958693;
+			productRefGroup = FE2469D929FDE77800958693 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FEF4B22E29FDC7BB002582FD /* E-MOVE */,
+				FE2469D729FDE77800958693 /* E-MOVE */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FEF4B22D29FDC7BB002582FD /* Resources */ = {
+		FE2469D629FDE77800958693 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF4B26829FDCF48002582FD /* 99627-loading-blocks.json in Resources */,
-				FEF4B23A29FDC7BB002582FD /* Preview Assets.xcassets in Resources */,
-				FEF4B23729FDC7BB002582FD /* Assets.xcassets in Resources */,
+				FE2469E329FDE77900958693 /* Preview Assets.xcassets in Resources */,
+				FE2469E029FDE77900958693 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FEF4B22B29FDC7BB002582FD /* Sources */ = {
+		FE2469D429FDE77800958693 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF4B23529FDC7BB002582FD /* ContentView.swift in Sources */,
-				FEF4B24129FDC8F2002582FD /* File.swift in Sources */,
-				FEF4B23329FDC7BB002582FD /* E_MOVEApp.swift in Sources */,
-				FEF4B26629FDCD20002582FD /* LOTTIEVIEW.swift in Sources */,
+				FE21031529FEC38600252E65 /* loading page.swift in Sources */,
+				FE2469DE29FDE77800958693 /* ContentView.swift in Sources */,
+				FE21031129FDFB2E00252E65 /* File.swift in Sources */,
+				FE2469DC29FDE77800958693 /* E_MOVEApp.swift in Sources */,
+				FE21031729FEDA2300252E65 /* home view.swift in Sources */,
+				FE21031329FEC15600252E65 /* login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FEF4B23B29FDC7BB002582FD /* Debug */ = {
+		FE2469E429FDE77900958693 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		FEF4B23C29FDC7BB002582FD /* Release */ = {
+		FE2469E529FDE77900958693 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +275,7 @@
 			};
 			name = Release;
 		};
-		FEF4B23E29FDC7BB002582FD /* Debug */ = {
+		FE2469E729FDE77900958693 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -307,7 +303,7 @@
 			};
 			name = Debug;
 		};
-		FEF4B23F29FDC7BB002582FD /* Release */ = {
+		FE2469E829FDE77900958693 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -338,44 +334,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FEF4B22A29FDC7BB002582FD /* Build configuration list for PBXProject "E-MOVE" */ = {
+		FE2469D329FDE77800958693 /* Build configuration list for PBXProject "E-MOVE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEF4B23B29FDC7BB002582FD /* Debug */,
-				FEF4B23C29FDC7BB002582FD /* Release */,
+				FE2469E429FDE77900958693 /* Debug */,
+				FE2469E529FDE77900958693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEF4B23D29FDC7BB002582FD /* Build configuration list for PBXNativeTarget "E-MOVE" */ = {
+		FE2469E629FDE77900958693 /* Build configuration list for PBXNativeTarget "E-MOVE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEF4B23E29FDC7BB002582FD /* Debug */,
-				FEF4B23F29FDC7BB002582FD /* Release */,
+				FE2469E729FDE77900958693 /* Debug */,
+				FE2469E829FDE77900958693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		FEF4B26229FDCCB0002582FD /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/airbnb/lottie-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		FEF4B26329FDCCB0002582FD /* Lottie */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FEF4B26229FDCCB0002582FD /* XCRemoteSwiftPackageReference "lottie-ios" */;
-			productName = Lottie;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = FEF4B22729FDC7BB002582FD /* Project object */;
+	rootObject = FE2469D029FDE77800958693 /* Project object */;
 }
